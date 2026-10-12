@@ -1,0 +1,14 @@
+.qtcreator/
+*.user
+*.user.*
+build/
+build-*/
+cmake-build-*/
+dist/
+*.zip
+*.exe
+*.dll
+*.o
+*.obj
+Thumbs.db
+.DS_Store

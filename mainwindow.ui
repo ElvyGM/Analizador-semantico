@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>719</width><height>815</height></rect></property>
+  <property name="windowTitle"><string>Analizador Semantico</string></property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item><widget class="QLabel" name="label"><property name="font"><font><pointsize>18</pointsize><bold>true</bold></font></property><property name="text"><string>Analizador Semantico</string></property><property name="alignment"><set>Qt::AlignmentFlag::AlignCenter</set></property></widget></item>
+    <item><widget class="QLabel" name="label_2"><property name="text"><string>Por Elvy Grullon 1-22-2572</string></property><property name="alignment"><set>Qt::AlignmentFlag::AlignCenter</set></property></widget></item>
+    <item><widget class="QLabel" name="label_3"><property name="text"><string>Codigo fuente</string></property></widget></item>
+    <item><widget class="QTextEdit" name="editorCodigo"/></item>
+    <item><layout class="QHBoxLayout" name="horizontalLayout"><item><widget class="QPushButton" name="botonAnalizar"><property name="text"><string>Analizar</string></property></widget></item><item><widget class="QPushButton" name="botonLimpiar"><property name="text"><string>Limpiar</string></property></widget></item><item><widget class="QPushButton" name="botonEjemplo"><property name="text"><string>Cargar</string></property></widget></item><item><spacer name="horizontalSpacer"><property name="orientation"><enum>Qt::Orientation::Horizontal</enum></property><property name="sizeHint" stdset="0"><size><width>40</width><height>20</height></size></property></spacer></item></layout></item>
+    <item><widget class="QLabel" name="label_4"><property name="text"><string>Tokens reconocidos</string></property></widget></item>
+    <item><widget class="QTableWidget" name="tablaTokens"><column><property name="text"><string>Lexema</string></property></column><column><property name="text"><string>Token</string></property></column><column><property name="text"><string>Linea</string></property></column></widget></item>
+    <item><widget class="QLabel" name="labelResumen"><property name="text"><string>Tokens analizados: 0</string></property></widget></item>
+    <item><widget class="QLabel" name="labelEstado"><property name="text"><string>Sin analizar</string></property></widget></item>
+    <item><widget class="QLabel" name="label_5"><property name="text"><string>Resultado del analisis</string></property></widget></item>
+    <item><widget class="QPlainTextEdit" name="resultadoSintactico"><property name="readOnly"><bool>true</bool></property><property name="minimumSize"><size><width>0</width><height>180</height></size></property></widget></item>
+    <item><widget class="QLabel" name="label_6"><property name="text"><string>Tabla de simbolos</string></property></widget></item>
+    <item><widget class="QTableWidget" name="tablaSimbolos"><property name="minimumSize"><size><width>0</width><height>160</height></size></property><column><property name="text"><string>Nombre</string></property></column><column><property name="text"><string>Tipo</string></property></column><column><property name="text"><string>Categoria</string></property></column><column><property name="text"><string>Ambito</string></property></column><column><property name="text"><string>Linea</string></property></column></widget></item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar"/><widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/><connections/>
+</ui>
+
